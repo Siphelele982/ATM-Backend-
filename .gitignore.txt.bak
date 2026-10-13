@@ -1,0 +1,41 @@
+Compiled Java classes
+*.class
+
+-Maven build output
+target/
+
+-NetBeans private configuration
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/build/
+.nb-gradle/
+
+-NetBeans cache and local metadata
+.nbattrs
+.nb-gradle-properties
+
+-IDE files
+.idea/
+*.iml
+
+-Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+-Log files
+*.log
+
+-Operating system files
+.DS_Store
+Thumbs.db
+
+-Temporary files
+*.tmp
+*.bak
+ *~
+
+# Local database configuration and credentials
+/src/main/resources/application.properties
